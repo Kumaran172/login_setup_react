@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(blue,purple);
+}
+.all{
+  background-color: white;
+  border-radius: 30px;
+
+}
+
+.fields{
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label{
+  display: flex;
+}
+/* .user{
+  
+}
+.email{
+  display: flex;
+  padding:12px
+}
+.password{
+  display: flex;
+} */
+.signup{
+  border-radius:px;
+  border-color: black;
+  background-color:rgb(40, 40, 244);
+  margin: 10px;
+}
+.login{
+  border-radius:px;
+  border-color: black;
+  background-color:rgb(40, 40, 244);
+  margin: 10px;
+}
+.signup:hover{
+  border-radius:50px;
+  background-image: linear-gradient(lightblue,blue);
+  transition: 2s;
+}
+.login:hover{
+  border-radius:50px;
+  background-image: linear-gradient(lightblue,blue);
+  transition: 2s;
+}
+h2{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+img{
+  width: 40px;
+  height:40 px;
+  padding-top: 10px;
+}
+input{
+  margin:10px
+}
