@@ -24,7 +24,7 @@ function App() {
                 <div className='img'>
                   <img src={userimg} alt='profile'></img>
                 </div>
-                <p>Username</p></div>
+                <p>Username :</p></div>
               <input
                 type='text'
                 placeholder='enter your name'
@@ -37,7 +37,7 @@ function App() {
               <div className='img'>
                 <img src={emailimg} alt='profile'></img>
               </div>
-              <p>Email</p>
+              <p>Email :</p>
             </div>
             <input
               type='text'
@@ -52,7 +52,7 @@ function App() {
                 <div className='img'>
                   <img src={passwordimg} alt='profile'></img>
                 </div>
-                <p>Password</p>
+                <p>Password :</p>
               </div>
               <input
                 type='text'
